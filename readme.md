@@ -24,7 +24,7 @@
     1. use disable in the submit button.
     2. grab the input field and add an event listener to it using `keyup` event handler.
     3. Use an if else statement to check if the input field is empty or not. if the "email" value is inputted  then `removeAttribute("disabled")`
-    if other input value is inputted then `setAttribute("disabled", true)`
+    if other input value is inputted then use `setAttribute("disabled", true)`
 
 8. কোন একটা ইমেজ এর উপরে mouseenter করলে সেই ইমেজটা চেইঞ্জ হয়ে যাবে। একটু গুগলে সার্চ দিয়ে দেখো। জিনিসটা কিভাবে করা যেতে পারে। ✅
 
