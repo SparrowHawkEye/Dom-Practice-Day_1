@@ -24,11 +24,29 @@ btnSeeAll.addEventListener('click', function(){
   console.log("Yeah!! See All Button Clicked")
 })
 //!Task 6
+const btnBuys = document.
+getElementsByClassName("buy-now");
 
+
+for(const btnBuy of btnBuys)
+{
+  btnBuy.addEventListener('click', function(){
+    btnBuy.remove()
+  })
+}
 
 //!Task 7
 const btnSubmit = document.getElementById("submit");
-console.log(btnSubmit);
+const inputField = document.getElementById('input-field')
+
+inputField.addEventListener('keyup', function(event){
+  if(event.target.value == "email"){
+    btnSubmit.removeAttribute("disabled");
+  }else{
+    btnSubmit.setAttribute("disabled", true);
+  }
+})
+
 
 //! Task 8
 const shoe1 = document.getElementById("shoe1");
